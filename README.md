@@ -47,7 +47,7 @@ NewsletterSubscription/
 ## What you have to do? 
 
 <p align="center">
-1. Change the path to your plugin-file: in this example I use Module_
-2. Create a Content-Page in Magento
+1. Change the path to your plugin-file: in this example I use Module_ <br>
+2. Create a Content-Page in Magento <br>
 3. In the content-area you have to add your custom template: {{block class="Magento\Newsletter\Block\Subscribe" template="Module_FewsletterSubscription::subscribe.phtml"}}
 </p>
