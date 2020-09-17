@@ -1,0 +1,83 @@
+ <h3 class="marginBottom_20px pt-3">Newsletter-Anmeldung</h3>
+        <form class="form subscribe"
+              novalidate
+              action="<?php echo $block->escapeUrl($block->getFormActionUrl()) ?>"
+              method="post"
+              data-mage-init='{"validation": {"errorClass": "mage-error"}}'
+              id="newsletter-validate-detail">
+
+            <div class="cr_body cr_page cr_font formbox">
+                <div class="non_sortable"></div>
+                <div class="editable_content">
+                    <div id="newsletter-status" rel="radio" class="cr_ipe_item ui-sortable row mt-4">
+                        <div class="col-sm-4 col-md-3"><label class="itemname">Newsletter</label></div>
+                        <div class="col-sm-6 col-md-4">
+                            <p><input id="eintragen" class="cr_ipe_radio" name="eintragen" type="radio" value="eintragen" /> eintragen</p>
+                            <p><input id="austragen" class="cr_ipe_radio" name="austragen" type="radio" value="austragen" /> austragen</p>
+                        </div>
+                    </div>
+
+                    <div class="row mt-4">
+                        <div class="col-sm-4 col-md-3 pt-1">
+                            <label for="label01">Anrede</label>
+                        </div>
+                        <div class="col-sm-6 col-md-4">
+                            <select class="" id="gender" name="gender" data-validate="{required:true}"/>
+                                <option value="Bitte wählen">Bitte wählen</option>
+                                <option value="Frau">Frau</option>
+                                <option value="Herr">Herr</option>
+                            </select>
+                            <input type="hidden" name="checks[]" value="anrede:max(4), min_selected(1)">
+                        </div>
+                    </div>
+
+
+                    <div id="cr_firstname" rel="text" class="cr_ipe_item ui-sortable row mt-4">
+                        <div class="col-sm-4 col-md-3 pt-1"><label for="firstname" class="itemname">Vorname</label></div>
+                        <div class="col-sm-6 col-md-4">
+
+                            <input name="firstname" type="text" id="firstname" data-validate="{required:true}"/>
+                        </div>
+                    </div>
+                    <div id="lastname" rel="text" class="cr_ipe_item ui-sortable row mt-4">
+                        <div class="col-sm-4 col-md-3 pt-1"><label for="lastname" class="itemname">Nachname</label></div>
+                        <div class="col-sm-6 col-md-4">
+                            <input name="lastname" type="text" id="lastname" data-validate="{required:true}"/>
+                        </div>
+                    </div>
+
+
+                    <div id="cr_email" rel="email" class="cr_ipe_item ui-sortable musthave row mt-4">
+                        <div class="col-sm-4 col-md-3 pt-1"><label for="email" class="itemname">E-Mail-Adresse*</label></div>
+                        <div class="col-sm-6 col-md-4">
+                            <input name="email" type="email" id="newsletter"
+                                   data-validate="{required:true, 'validate-email':true}"/>
+                        </div>
+                    </div>
+                    <div class="row mt-4">
+                        <div class="col-sm-4 col-md-3">
+                            <label for="label15">Datenschutz*</label>
+                        </div>
+                        <div class="col-sm-8 col-md-9">
+                            <input type="checkbox" required name="privacy" value="1" id="privacy" class="mr-3"><input type="hidden" name="checks[]" value="privacy:not_empty">
+                            <span class="">Ich habe die <a href="http://pa2018.ewerk.de/fn/datenschutzerklaerung" target="_blank">Datenschutzbestimmungen</a> gelesen und akzeptiere diese. </span>
+                        </div>
+                    </div>
+
+
+                    <div id="submit" rel="button" class="cr_ipe_item ui-sortable submit_container row mt-4 mb-4">
+                        <div class="col-sm-4 col-md-3"></div>
+                        <div class="col-sm-6 col-md-4">
+
+                            <button class="cr_button custom-btn" title="<?php /* @escapeNotVerified */ echo __('Subscribe') ?>" type="submit">
+                                <span>Anmelden</span>
+                            </button>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </form>
+
+
+
