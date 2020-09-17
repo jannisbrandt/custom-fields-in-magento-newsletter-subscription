@@ -8,6 +8,7 @@
 
 <p align="center">
 With this magento plugin you have the option to add/show some custom fields like firstname, lastname and salutation in the magento newsletter-subscription.
+  <br>
   <a href="mailto:sayhello@jannisbrandt.de">Report bug</a>
   ·
   <a href="mailto:sayhello@jannisbrandt.de">Request feature</a>
