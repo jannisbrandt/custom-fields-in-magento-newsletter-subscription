@@ -4,15 +4,16 @@
   </a>
 </p>
 
-<h3 align="center">A plugin for custom fields in your magento newsletter subscription </h3>
+<h3 align="center">a plugin for custom fields in your magento newsletter subscription </h3>
 
 <p align="center">
+With this magento plugin you have the option to add/show some custom fields like firstname, lastname and salutation in the magento newsletter-subscription.
   <a href="mailto:sayhello@jannisbrandt.de">Report bug</a>
   ·
   <a href="mailto:sayhello@jannisbrandt.de">Request feature</a>
   ·
   <a href="https://devdocs.magento.com/">Magento Documentation</a>
-</p>
+  </p>
 
 
 ## What's included
@@ -40,3 +41,12 @@ NewsletterSubscription/
         
 
 ```
+
+
+## What you have to do? 
+
+<p align="center">
+1. Change the path to your plugin-file: in this example I use Module_
+2. Create a Content-Page in Magento
+3. In the content-area you have to add your custom template: {{block class="Magento\Newsletter\Block\Subscribe" template="Module_FewsletterSubscription::subscribe.phtml"}}
+</p>
