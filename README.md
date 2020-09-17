@@ -7,7 +7,7 @@
 <h3 align="center">a plugin for custom fields in your magento newsletter subscription </h3>
 
 <p align="center">
-With this magento plugin you have the option to add/show some custom fields like firstname, lastname and salutation in the magento newsletter-subscription.
+With this magento plugin you have the option to add/show some custom fields like firstname, lastname and salutation in the magento newsletter-subscription. You see the fields in the magento-backend and of course in the frontend.
   <br>
   <a href="mailto:sayhello@jannisbrandt.de">Report bug</a>
   ·
