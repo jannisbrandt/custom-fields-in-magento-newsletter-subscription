@@ -13,7 +13,7 @@
   ·
   <a href="mailto:sayhello@jannisbrandt.de">Request feature</a>
   ·
-  <a href="https://devdocs.magento.com/"Magento Documentation</a>
+  <a href="https://devdocs.magento.com/">Magento Documentation</a>
   </p>
 
 
