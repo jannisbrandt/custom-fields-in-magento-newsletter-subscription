@@ -6,15 +6,13 @@
 
 <h3 align="center">A plugin for custom fields in your magento newsletter subscription </h3>
 
-<p align="center" style="margin: 0 auto; text-align:center;">
- 
-  
+<p align="center">
   <a href="mailto:sayhello@jannisbrandt.de">Report bug</a>
   ·
   <a href="mailto:sayhello@jannisbrandt.de">Request feature</a>
   ·
   <a href="https://devdocs.magento.com/">Magento Documentation</a>
-  </p>
+</p>
 
 
 ## What's included
